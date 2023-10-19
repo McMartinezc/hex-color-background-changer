@@ -5,6 +5,7 @@ const textoColor = document.querySelector('#hex-value');
 //Función evento click en el botón
 button.addEventListener("click", function(){
     const colorHex =  randomColorHexadecimal();
+
     document.querySelector("body").style.background = colorHex;
     textoColor.textContent = colorHex;
 });
